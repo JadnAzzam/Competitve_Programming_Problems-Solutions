@@ -17,7 +17,6 @@ using namespace std;
 // my first solution
 // O(n^2) Time and O(1) space 
 vector<int> twoNumberSum(vector<int> array, int targetSum) {
-  // Write your code here.
 	int k = array.size();
 	vector<int> pair = {};	
 	for (int i=0; i<k-1; i++){
@@ -36,7 +35,6 @@ vector<int> twoNumberSum(vector<int> array, int targetSum) {
 // my first solution
 // O(nlogn) Time and O(1) space
 vector<int> twoNumberSum(vector<int> array, int targetSum) {
-  // Write your code here.
   vector<int> pair = {};
 	sort(array.begin(),array.end());
   int start = 0;
