@@ -1,4 +1,3 @@
-// Depth-first Search
 // You're given a Node class that has a structure. 
 // name 
 // and an array of optional children nodes. When put together, nodes form an acyclic tree-like 
